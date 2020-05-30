@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter} from "react-router-dom";
+import Routes from "./Routes";
+
 
 function App() {
   return (
     <div className="App">
-      <h1 className="alert alert-primary">Genna's Website</h1>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     </div>
   );
 }
