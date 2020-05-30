@@ -1,17 +1,29 @@
 
 nav {
-  border-bottom: 5px dotted white;
+  border-bottom: 3px dotted white;
 
 }
+
 li {
   display: inline;
-  margin: 10px;
+  margin: 50px;
+}
+
+@media (orientation: portrait){
+  li {
+    margin: 10px;
+  }
 }
 
 a {
   text-decoration: none;
   color: teal;
+}
 
+a:hover {
+  font-size: 50px;
+  transition-timing-function: ease-in-out;
+  transition: 0.5s
 }
 
 a.active {
