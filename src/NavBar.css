@@ -1,6 +1,6 @@
 
 nav {
-  border: 1px solid black;
+  border-bottom: 5px dotted white;
 
 }
 li {
@@ -10,9 +10,10 @@ li {
 
 a {
   text-decoration: none;
+  color: teal;
 
 }
 
 a.active {
-  color: black;
+  color: rgb(161, 158, 158);
 }

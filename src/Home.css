@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(25, 25, 59);
+}
+
+.Home-intro {
+  color: teal;
+}
+
+.Home-name {
+  color: white;
+}
+
+.Home-info {
+  color: rgb(161, 158, 158);
+}

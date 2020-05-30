@@ -1,10 +1,11 @@
 import React from 'react';
+import './About.css';
 
 function About(){
   return (
     <div>
-      <h1>About Me</h1>
-      <p>
+      <h1 className="About-title">About Me</h1>
+      <p className="About-info">
         I am a professional dancer and yoga instructor
         learning to code in Silicon Valley! My husband,
         dog and I recently moved to SF from the East coast
