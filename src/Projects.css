@@ -8,6 +8,10 @@
   font-size: 30px;
 }
 
+.Project-link:hover {
+  color: rgb(212, 114, 90);
+}
+
 .Project-info {
   color: rgb(124, 177, 124);
   font-size: 15px;
