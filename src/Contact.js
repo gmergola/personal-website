@@ -1,13 +1,18 @@
 import React from 'react';
 import './Contact.css';
+import emailGif from './images/email.gif';
+import arrow from './images/arrow-down.gif';
 
-function Contact(){
+function Contact() {
   return (
     <div>
-      <h1 className="Contact-title">Contact Me</h1>
-      <a className="Contact-email" href="mailto:gennamergola@gmail.com">
-        Click here to Email me
-      </a>
+      <p><b className="Contact-email">Click to Email me</b></p>
+      <img className="Contact-arrow" src={arrow} alt="arrow" />
+      <div>
+        <a href="mailto:gennamergola@gmail.com">
+          <img className="Contact-mail-gif" src={emailGif} alt="email-gif" />
+        </a>
+      </div>
     </div>
   )
 }

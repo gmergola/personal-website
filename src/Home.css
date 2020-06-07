@@ -1,19 +1,23 @@
 body {
-  background-color: rgb(25, 25, 59);
+  background-color: rgb(24, 24, 41);
 }
 
 .Home-intro {
   margin-top: 100px;
-  color: teal;
+  color: rgb(190, 123, 140);
   font-size: 20px;
 }
 
 .Home-name {
-  color: white;
+  color: rgb(161, 158, 158);
   font-size: 50px;
 }
 
 .Home-info {
   color: rgb(161, 158, 158);
   font-size: 20px;
+}
+
+.Home-pinkDot {
+  margin-top: 100px;
 }

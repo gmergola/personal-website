@@ -1,7 +1,12 @@
 .About-title {
-  color: teal;
+  color:rgb(180, 60, 90);
 }
 
 .About-info {
   color: white;
+}
+
+.About-resume {
+  height: 550px;
+  width: 450px;
 }

@@ -1,3 +1,29 @@
 .Projects-title {
-  color: white;
+  color: rgb(212, 114, 90);
+}
+
+.Project-link {
+  text-decoration: none;
+  color: rgb(55, 138, 55);
+  font-size: 30px;
+}
+
+.Project-info {
+  color: rgb(124, 177, 124);
+  font-size: 15px;
+}
+
+.Project-game-title {
+  color: rgb(99, 44, 99);
+  font-size: 40px;
+}
+.Project-game {
+  color: rgb(133, 87, 133);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.Project-fac-arrow {
+  height: 100px;
 }

@@ -1,7 +1,14 @@
-.Contact-title {
-  color: white;
-}
 
 .Contact-email {
-  color: teal;
+  font-size: 20px;
+  color: rgb(216, 175, 85);
+  text-decoration: none;
+}
+
+.Contact-arrow {
+  height: 300px;
+}
+
+.Contact-mail-gif {
+  height: 400px;
 }
