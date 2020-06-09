@@ -1,35 +1,39 @@
 import React, { useState } from 'react';
 import pinkDot from './images/pink-dot.gif';
 import './Home.css';
+import Projects from './Projects';
 
 function Home() {
   const [showIcon, setShowIcon] = useState(true);
-  const [showNameIs, setShowNameIs] = useState(false);
-  const [showName, setShowName] = useState(false);
-  const [showBuild, setShowBuild] = useState(false);
+  const [showProjects, setShowProjects] = useState(false);
 
   function showIntro() {
     setTimeout(() => {
       setShowIcon(false);
-      setShowNameIs(true);
     }, 1350)
-
-    setTimeout(() => {
-      setShowName(true);
-    }, 2000)
-
-    setTimeout(() => {
-      setShowBuild(true);
-    }, 3000)
   }
 
   return (
     <div>
-      {showIcon ? <img className="Home-pinkDot" src={pinkDot}
-      alt="dot" />: ""}
-      {showNameIs ? <p className="Home-intro">Hi, my name is...</p>: ""}
-      {showName ? <p className="Home-name">Genna</p> : ""}
-      {showBuild ? <p className="Home-info">I build things for the web...</p> : ""}
+      {
+        showIcon ?
+          <img className="Home-pinkDot" src={pinkDot} alt="dot" />
+          :
+          <div>
+            <p className="Home-intro">Hi, my name is</p>
+            <p className="Home-name">Genna</p>
+            <p className="Home-info">I build things for the web...</p>
+            {showProjects ?
+              <Projects />
+              :
+              <button
+                className="Home-projects-btn"
+                onClick={() => setShowProjects(true)}>
+                checkout some apps i've built!
+              </button>}
+          </div>
+      }
+
       {showIntro()}
     </div>
   )
