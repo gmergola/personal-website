@@ -4,9 +4,17 @@
 
 .About-info {
   color: white;
+  margin: 30px;
 }
 
 .About-resume {
   height: 550px;
   width: 450px;
+}
+
+@media only screen and (max-width: 600px) {
+  .About-resume {
+    width: 350px;
+    height: 450;
+  }
 }

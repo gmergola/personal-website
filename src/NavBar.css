@@ -1,24 +1,25 @@
+nav {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
 .NavBar-list {
   display: inline;
+  margin: 10px;
 }
 
 .NavBar-link {
   text-decoration: none;
   color:  rgb(60, 180, 160);
-  margin: 20px;
-}
-
-@media (orientation: portrait){
-  .NavBar-list{
-    margin: 10px;
-  }
-}
-
-.NavBar-link:hover {
-  color: rgb(161, 158, 158);
-  font-size: 15px;
+  margin: 50px;
 }
 
 .NavBar-link.active {
   color: rgb(161, 158, 158);
+}
+
+@media only screen and (max-width: 600px) {
+  .NavBar-link {
+    margin: 30px;
+  }
+
 }
