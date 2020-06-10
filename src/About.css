@@ -8,13 +8,21 @@
 }
 
 .About-resume {
-  height: 550px;
-  width: 450px;
+  height: 80px;
+  width: 200px;
+  border-radius: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+.About-resume-link {
+  text-decoration: none;
+  font-family: monospace;
+  color: rgb(180, 60, 90);
+  font-size: 20px;
+}
+
+/* @media only screen and (max-width: 600px) {
   .About-resume {
     width: 350px;
     height: 450;
   }
-}
+} */
