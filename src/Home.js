@@ -26,11 +26,11 @@ function Home() {
             {showProjects ?
               <Projects />
               :
-              <button
-                className="Home-projects-btn"
-                onClick={() => setShowProjects(true)}>
-                checkout some apps i've built!
-              </button>}
+              <a onClick={() => setShowProjects(true)} href="#Project-title">
+                <button className="Home-projects-btn">
+                  checkout some apps i've built!
+                </button>
+              </a>}
           </div>
       }
 
