@@ -18,7 +18,7 @@
   color: #501b1d;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .NavBar-link {
     margin: 10px;
   }

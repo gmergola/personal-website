@@ -37,5 +37,16 @@
 }
 
 .Project-bottom {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+}
+
+.Projects-picture {
+  width: 300px;
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 500px){
+  .Projects-picture {
+    width: 150px;
+  }
 }
