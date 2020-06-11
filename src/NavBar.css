@@ -1,7 +1,10 @@
-nav {
-  margin-bottom: 20px;
-  margin-top: 30px;
+.NavBar-div {
+  overflow: hidden;
+  background-color: rgb(196, 195, 195);
+  border-bottom: 1px solid rgb(134, 162, 175);
+  display: flex;
 }
+
 .NavBar-list {
   display: inline;
   margin: 10px;
@@ -9,12 +12,12 @@ nav {
 
 .NavBar-link {
   text-decoration: none;
-  color:  rgb(60, 180, 160);
+  color:  rgb(56, 96, 114);
   margin: 50px;
 }
 
 .NavBar-link.active {
-  color: rgb(161, 158, 158);
+  color: rgb(110, 109, 109);
 }
 
 @media only screen and (max-width: 600px) {
@@ -23,3 +26,4 @@ nav {
   }
 
 }
+

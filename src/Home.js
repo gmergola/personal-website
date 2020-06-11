@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import pinkDot from './images/pink-dot.gif';
 import './Home.css';
 import Projects from './Projects';
+import { Link } from "react-scroll";
+
+
 
 function Home() {
   const [showIcon, setShowIcon] = useState(true);
-  const [showProjects, setShowProjects] = useState(false);
 
   function showIntro() {
     setTimeout(() => {
@@ -22,18 +24,30 @@ function Home() {
           <div>
             <p className="Home-intro">Hi, my name is</p>
             <p className="Home-name">Genna</p>
-            <p className="Home-info">I build things for the web...</p>
-            {showProjects ?
-              <Projects />
-              :
-              <a onClick={() => setShowProjects(true)} href="#Project-title">
-                <button className="Home-projects-btn">
-                  checkout some apps i've built!
-                </button>
-              </a>}
+            <p className="Home-info"><b>I build things for the web...</b></p>
+             <Link
+             activeClass="active"
+             className="Home-projects-btn"
+             to="Project-div"
+             spy={true}
+             smooth={true}
+             duration={1000}>
+               Check out some apps I've built
+             </Link>
+
+             <Projects />
+
+             <Link
+             activeClass="active"
+             className="Home-projects-btn"
+             to="NavBar-div"
+             spy={true}
+             smooth={true}
+             duration={1000}>
+               Scroll to top
+             </Link>
           </div>
       }
-
       {showIntro()}
     </div>
   )

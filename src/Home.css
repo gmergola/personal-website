@@ -1,21 +1,22 @@
 body {
-  background-color: rgb(24, 24, 41);
+  background-color: rgb(179, 179, 182);
 }
 
 .Home-intro {
   margin-top: 100px;
-  color: rgb(190, 123, 140);
+  color: rgb(78, 131, 155);
   font-size: 20px;
 }
 
 .Home-name {
-  color:  rgb(60, 180, 160);
+  color:  rgb(56, 96, 114);
   font-size: 50px;
 }
 
 .Home-info {
-  color: rgb(161, 158, 158);
+  color:rgb(110, 109, 109);
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 .Home-pinkDot {
@@ -29,15 +30,18 @@ body {
 }
 
 .Home-projects-btn {
-  font-family: monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: none;
   height: 50px;
   border-radius: 50px;
   background-color: rgb(161, 158, 158);
-  margin: 30px;
   padding: 15px;
+  font-size: 30px;
+  color: rgb(87, 87, 87);
 }
 
 .Home-projects-btn:hover {
-  background-color: rgb(190, 123, 140);
+  background-color: rgb(161, 158, 158);
+  color: rgb(161, 158, 158);
+  transition: ease 0.4s;
 }
