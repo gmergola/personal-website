@@ -1,17 +1,17 @@
 
 .Project-title {
   margin-top: 500px;
-  color: rgb(56, 96, 114);
+  color: #501b1d
 }
 
 .Project-name {
-  color: rgb(78, 131, 155);
+  color: rgb(77, 117, 136);
   font-size: 30px;
 }
 
 .Project-link {
   text-decoration: none;
-  color: rgb(196, 195, 195);
+  color: #501b1d;
   font-size: 15px;
   padding: 10px;
 }
@@ -19,15 +19,16 @@
 .Project-btn {
   border-radius: 20px;
   border: none;
-  background-color: rgb(110, 109, 109);
+  background-color: #edc7b7;
 }
 
 .Project-btn:hover {
-  background-color: rgb(187, 203, 204);
+  background-color: #f7dacd;
+  transition: ease 0.4s;
 }
 
 .Project-link:hover {
-  color: rgb(75, 130, 180);
+  color: #501b1d;
 }
 
 .Project-info {

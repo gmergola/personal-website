@@ -7,9 +7,10 @@ function NavBar() {
     <div className="NavBar-div">
         <nav>
           <ul>
-            <li className="NavBar-list"><NavLink className="NavBar-link" exact to="/">Home</NavLink></li>
-            <li className="NavBar-list"><NavLink className="NavBar-link" exact to="/about">About</NavLink></li>
-            <li className="NavBar-list"><NavLink className="NavBar-link" exact to="/contact">Contact</NavLink></li>          </ul>
+            <li className="NavBar-list"><NavLink className="NavBar-link" exact to="/"><b>Home</b></NavLink></li>
+            <li className="NavBar-list"><NavLink className="NavBar-link" exact to="/about"><b>About</b></NavLink></li>
+            <li className="NavBar-list"><NavLink className="NavBar-link" exact to="/contact"><b>Contact</b></NavLink></li>
+          </ul>
         </nav>
     </div>
   )
