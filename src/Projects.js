@@ -15,6 +15,14 @@ function Projects(){
       <button className="Project-btn"><a className="Project-link"href="https://github.com/gmergola/Warbler">Github Link </a></button>
       <p className="Project-info">A Twitter clone application</p>
       <p className="Project-info"><b>Built using: </b> Python, Flask, and PostgreSQL</p>
+      <p className="Project-name">Jeopardy!</p>
+      <button className="Project-btn"><a className="Project-link"href="http://physical-achieve.surge.sh/">App link </a></button>
+      <p className="Project-info">A game to play Jeopardy</p>
+      <p className="Project-info"><b>Built using: </b> Vanilla Javascript, HTML, and CSS</p>
+      <p className="Project-name">Madlibs!</p>
+      <button className="Project-btn"><a className="Project-link"href="http://nappy-breath.surge.sh/">App link </a></button>
+      <p className="Project-info">An app to play madlibs</p>
+      <p className="Project-info"><b>Built using: </b>React</p>
       <div className="Project-bottom"></div>
     </div>
   )
