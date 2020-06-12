@@ -1,7 +1,6 @@
-.NavBar-div {
+.NavBar-container {
   overflow: hidden;
   background-color: #edc7b7;
-  display: flex;
 }
 
 .NavBar-list {

@@ -12,9 +12,9 @@ function Projects(){
       <br/>
       <p className="Project-name">Jobly</p>
       <div><img className="Projects-picture" src={jobly} alt="jobly-home"/></div>
-      <button className="Project-btn"><a className="Project-link"href="https://github.com/gmergola/react-jobly">Github Link </a></button>
       <p className="Project-info" >A site for users to find and apply for jobs</p>
       <p className="Project-info" ><b>Built using: </b> React, Express, and PostgreSQL </p>
+      <button className="Project-btn"><a className="Project-link"href="https://github.com/gmergola/react-jobly">Github Link </a></button>
 
       <p className="Project-name">Microblog</p>
       <div><img className="Projects-picture" src={microblog} alt="microblog-home"/></div>

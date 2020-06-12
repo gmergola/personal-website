@@ -8,7 +8,7 @@ function About() {
       <p className="About-info">
         I am a software engineer based in San Francisco, CA
       </p>
-      <a className="About-resume-link" href="https://docs.google.com/document/d/1uVXYcAsbLHP8MNTOhjnVjyhFYnJltd1vMC4k34muxbw/edit">Resume</a>
+      <div className="About-resume-div"><a className="About-resume-link" href="https://docs.google.com/document/d/1uVXYcAsbLHP8MNTOhjnVjyhFYnJltd1vMC4k34muxbw/edit">Resume</a></div>
     </div>
   )
 }

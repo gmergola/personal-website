@@ -5,31 +5,44 @@ body {
   padding-bottom: 10vh;
 }
 
+.container {
+  text-align: center;
+}
+
 .Home-intro {
   margin-top: 100px;
   color: rgb(77, 117, 136);
   font-size: 20px;
+  animation-name: moveTopDown;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: -0.7s;
 }
 
 .Home-name {
   color: #501b1d;
   font-size: 50px;
+  animation-name: moveTopDown;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
 }
 
 .Home-info {
   color:rgb(77, 117, 136);
   font-size: 20px;
   margin-bottom: 100px;
+  animation-name: moveLeftRight;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 1.3s;
 }
 
-.Home-pinkDot {
-  margin-top: 100px;
-}
-
-@media only screen and (max-width: 600px) {
-  .Home-pinkDot{
-   width: 300px;
-  }
+.Home-btn-div {
+  animation-name: moveRightLeft;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 2.3s;
 }
 
 .Home-projects-btn {
@@ -40,7 +53,12 @@ body {
   background-color: #edc7b7;
   padding: 15px;
   font-size: 3.5vh;
-  color: #501b1d
+  color: #501b1d;
+}
+
+.Home-projects-btn:hover {
+  background-color: #f7dacd;
+  transition: ease 0.4s;
 }
 
 @media only screen and (max-width: 600px) {
@@ -49,7 +67,36 @@ body {
   }
 }
 
-.Home-projects-btn:hover {
-  background-color: #f7dacd;
-  transition: ease 0.4s;
+
+@keyframes moveTopDown {
+  from {
+    transform: translateY(-600px);
+  }
+
+  to {
+    transform: translate(0px)
+  }
 }
+
+@keyframes moveLeftRight {
+  from {
+    transform: translateX(-600px);
+  }
+
+  to {
+    transform: translate(0px)
+  }
+}
+
+@keyframes moveRightLeft {
+  from {
+    transform: translateX(600px);
+  }
+
+  to {
+    transform: translate(0px)
+  }
+}
+
+
+

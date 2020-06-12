@@ -1,10 +1,18 @@
 .About-title {
   color:#501b1d;
+  animation-name: moveTopDown;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: -1s;
 }
 
 .About-info {
   color: rgb(77, 117, 136);
   margin-bottom: 100px;
+  animation-name: moveTopDown;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 0s;
 }
 
 .About-resume-link {
@@ -22,4 +30,31 @@
 .About-resume-link:hover {
   background-color: #f7dacd;
   transition: ease 0.4s;
+}
+
+.About-resume-div {
+  animation-name: moveLeftRight;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+
+@keyframes moveTopDown {
+  from {
+    transform: translateY(-600px);
+  }
+
+  to {
+    transform: translate(0px)
+  }
+}
+
+@keyframes moveLeftRight {
+  from {
+    transform: translateX(-600px);
+  }
+
+  to {
+    transform: translate(0px)
+  }
 }
