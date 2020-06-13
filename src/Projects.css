@@ -1,7 +1,33 @@
 
+.Project-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  margin-bottom: 10px;
+  border-bottom: 5px solid  #edc7b7;
+}
+
+.Project-container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.Projects-picture {
+  border-radius: 15px;
+  width: 400px;
+  float: left;
+}
+
+.Project-context {
+  float: right;
+  max-width: 580px;
+}
+
+
 .Project-title {
-  margin-top: 500px;
-  color: #501b1d
+  margin-top: 800px;
+  color: #501b1d;
 }
 
 .Project-name {
@@ -40,13 +66,20 @@
   margin-bottom: 100px;
 }
 
-.Projects-picture {
-  width: 300px;
-  margin-bottom: 8px;
-}
 
 @media only screen and (max-width: 500px){
   .Projects-picture {
     width: 150px;
   }
+
+  .Project-context {
+    float: right;
+    width: 200px;
+  }
+
+  .Projects-picture {
+    width: 150px;
+    float: left;
+  }
+
 }

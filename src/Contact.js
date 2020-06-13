@@ -6,7 +6,7 @@ import arrow from './images/arrow-down.gif';
 function Contact() {
   return (
     <div>
-      <p><b className="Contact-email">Click to Email me</b></p>
+      <p className="Contact-email"><b>Click to Email me</b></p>
       <img className="Contact-arrow" src={arrow} alt="arrow" />
       <div>
         <a href="mailto:gennamergola@gmail.com">

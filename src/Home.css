@@ -1,8 +1,19 @@
 body {
   background-color: #eee2dc;
-  padding-right: 8vh;
-  padding-left: 8vh;
   padding-bottom: 10vh;
+}
+
+.headshot {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  position: absolute;
+  left: 6rem;
+  top: 6rem;
+  animation-name: moveLeftRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }
 
 .container {
@@ -10,39 +21,32 @@ body {
 }
 
 .Home-intro {
-  margin-top: 100px;
   color: rgb(77, 117, 136);
   font-size: 20px;
-  animation-name: moveTopDown;
-  animation-duration: 2s;
-  animation-fill-mode: both;
-  animation-delay: -0.7s;
+  margin-top: 100px;
 }
 
 .Home-name {
   color: #501b1d;
   font-size: 50px;
-  animation-name: moveTopDown;
-  animation-duration: 2s;
-  animation-fill-mode: both;
-  animation-delay: 0.3s;
 }
 
 .Home-info {
   color:rgb(77, 117, 136);
   font-size: 20px;
-  margin-bottom: 100px;
-  animation-name: moveLeftRight;
-  animation-duration: 2s;
+  animation-name: moveRightLeft;
+  animation-duration: 1s;
   animation-fill-mode: both;
-  animation-delay: 1.3s;
+  animation-timing-function: ease-in-out;
 }
 
 .Home-btn-div {
+  margin-top: 7rem;
   animation-name: moveRightLeft;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: both;
-  animation-delay: 2.3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
 }
 
 .Home-projects-btn {
@@ -61,16 +65,31 @@ body {
   transition: ease 0.4s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+  .Home-intro {
+    margin-top: 60px;
+  }
+
   .Home-projects-btn{
    font-size: 15px;
+  }
+  .Home-btn-div {
+    margin-top: 4rem;
+  }
+
+  .headshot {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 0.2rem;
+    top: 2rem;
   }
 }
 
 
-@keyframes moveTopDown {
+@keyframes moveRightLeft {
   from {
-    transform: translateY(-600px);
+    transform: translateX(900px);
   }
 
   to {
@@ -80,21 +99,11 @@ body {
 
 @keyframes moveLeftRight {
   from {
-    transform: translateX(-600px);
+    transform: translateX(0px);
   }
 
   to {
-    transform: translate(0px)
-  }
-}
-
-@keyframes moveRightLeft {
-  from {
-    transform: translateX(600px);
-  }
-
-  to {
-    transform: translate(0px)
+    transform: translate(-900px)
   }
 }
 

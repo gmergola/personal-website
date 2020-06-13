@@ -1,57 +1,56 @@
 .About-title {
   color:#501b1d;
-  animation-name: moveTopDown;
-  animation-duration: 2s;
-  animation-fill-mode: both;
-  animation-delay: -1s;
+}
+
+.About-info-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-bottom: 10px;
+}
+
+.About-info-container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.About-work {
+  font-size: 20px;
 }
 
 .About-info {
   color: rgb(77, 117, 136);
-  margin-bottom: 100px;
-  animation-name: moveTopDown;
-  animation-duration: 2s;
-  animation-fill-mode: both;
-  animation-delay: 0s;
-}
-
-.About-resume-link {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: none;
-  height: 50px;
-  border-radius: 50px;
-  background-color: #edc7b7;
-  padding: 15px;
-  font-size: 30px;
-  color: #501b1d;
-  text-decoration: none;
-}
-
-.About-resume-link:hover {
-  background-color: #f7dacd;
-  transition: ease 0.4s;
-}
-
-.About-resume-div {
   animation-name: moveLeftRight;
   animation-duration: 2s;
   animation-fill-mode: both;
-  animation-delay: 1s;
+  border-bottom: 5px solid #edc7b7;
+  border-top: 5px solid #edc7b7;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  padding-bottom: 10px;
 }
 
-@keyframes moveTopDown {
-  from {
-    transform: translateY(-600px);
-  }
+.About-info-pre {
+  float: left;
+  max-width: 400px;
+}
 
-  to {
-    transform: translate(0px)
+.About-info-body {
+  float:right;
+  max-width: 550px;
+}
+
+
+@media only screen and (max-width: 500px){
+  .About-info {
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 }
 
 @keyframes moveLeftRight {
   from {
-    transform: translateX(-600px);
+    transform: translateX(-1000px);
   }
 
   to {

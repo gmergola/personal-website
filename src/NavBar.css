@@ -1,6 +1,8 @@
 .NavBar-container {
   overflow: hidden;
   background-color: #edc7b7;
+  align-self: baseline;
+  align-content: stretch;
 }
 
 .NavBar-list {
