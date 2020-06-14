@@ -68,19 +68,24 @@
 
 
 @media only screen and (max-width: 500px){
+
+  .Project-container {
+    max-width: 300px;
+  }
+
+  .Project-title {
+    font-size: 25px;
+  }
+
   .Projects-picture {
-    width: 150px;
+    text-align: center;
+    width: 300px;
+    float: none;
   }
 
   .Project-context {
-    float: right;
-    width: 150px;
-  }
-
-  .Projects-picture {
-    width: 150px;
-    height: 180px;
-    float: left;
+    width: 300px;
+    float: none;
   }
 
 }
