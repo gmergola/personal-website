@@ -25,6 +25,7 @@ function Projects() {
           </p>
           <h5 className="Project-info" >Built using:  React, Express, and PostgreSQL</h5>
           <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/react-jobly">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://jolly-bartik-93b7c7.netlify.app/">Live App Demo</a></button>
         </div>
       </div>
 
@@ -39,6 +40,7 @@ function Projects() {
           </p>
           <h5 className="Project-info" >Built using: React, Redux, Express, and PostgreSQL  </h5>
           <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/redux-microblog">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://silly-jepsen-f99f86.netlify.app/">Live App Demo</a></button>
         </div>
       </div>
 
@@ -56,6 +58,7 @@ function Projects() {
             </p>
           <h5 className="Project-info">Built using: Python, Flask, and PostgreSQL</h5>
           <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Warbler">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://genna-k-warbler.herokuapp.com/">Live App Demo</a></button>
         </div>
       </div>
 
@@ -68,7 +71,7 @@ function Projects() {
             request to the Jeopardy API to get questions and answers. Try it out by clicking the button below!
           </p>
           <h5 className="Project-info">Built using: Javascript, JQuery, HTML, and CSS</h5>
-          <button className="Project-btn"><a className="Project-link" href="http://physical-achieve.surge.sh/">App link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="http://physical-achieve.surge.sh/">Live App Demo </a></button>
         </div>
       </div>
       {/* <p className="Project-name">Madlibs!</p>
