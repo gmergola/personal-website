@@ -74,11 +74,12 @@
 
   .Project-context {
     float: right;
-    width: 200px;
+    width: 150px;
   }
 
   .Projects-picture {
     width: 150px;
+    height: 180px;
     float: left;
   }
 

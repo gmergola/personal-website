@@ -33,3 +33,10 @@
     transform: translateY(0px)
   }
 }
+
+@media only screen and (max-width: 500px){
+  .Contact-title {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
