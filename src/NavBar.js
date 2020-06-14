@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./NavBar.css";
+import resume from './images/Genna-resume.pdf';
 
 function NavBar() {
   return (
@@ -23,7 +24,7 @@ function NavBar() {
             </NavLink>
           </li>
           <li className="NavBar-list">
-            <a className="NavBar-link" href="https://docs.google.com/document/d/1uVXYcAsbLHP8MNTOhjnVjyhFYnJltd1vMC4k34muxbw/edit">
+            <a className="NavBar-link" href={resume} download>
               <b>Resume</b>
             </a>
           </li>
