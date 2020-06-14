@@ -17,6 +17,10 @@
   color: #612325;
 }
 
+.NavBar-link:hover {
+  opacity: 0.5;
+}
+
 @media only screen and (max-width: 1000px) {
   .NavBar-link {
     margin: 10px;

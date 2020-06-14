@@ -25,7 +25,7 @@ function NavBar() {
           </li>
           <li className="NavBar-list">
             <a className="NavBar-link" href={resume} download>
-              <b>Resume</b>
+              <b>Download Resume</b>
             </a>
           </li>
         </ul>
