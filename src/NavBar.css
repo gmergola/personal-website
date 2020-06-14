@@ -1,6 +1,7 @@
 .NavBar-container {
   overflow: hidden;
   background-color: #eee4dc;
+  text-align: left;
 }
 
 .NavBar-list {
@@ -10,7 +11,7 @@
 .NavBar-link {
   text-decoration: none;
   color: rgb(138, 123, 93);
-  margin: 100px;
+  margin: 120px;
 }
 
 .NavBar-link.active {
@@ -23,7 +24,7 @@
 
 @media only screen and (max-width: 1000px) {
   .NavBar-link {
-    margin: 10px;
+    margin: 7px;
   }
 
 }
