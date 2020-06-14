@@ -24,7 +24,10 @@
 
 @media only screen and (max-width: 1000px) {
   .NavBar-link {
-    margin: 7px;
+    margin: 7.5px;
+  }
+  .NavBar-list {
+    font-size: 13px;
   }
 
 }
