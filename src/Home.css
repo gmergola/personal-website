@@ -78,6 +78,11 @@ body {
     margin-top: 4rem;
   }
 
+  .Home-name {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
   .headshot {
     width: 250px;
     height: 250px;
