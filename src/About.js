@@ -5,8 +5,8 @@ function About() {
   return (
     <div>
       <h1 className="About-title">About Me</h1>
-      <h3><i>I am a software engineer based in San Francisco, CA</i></h3>
-      <p className="About-info">
+      <h3 className="About-SE"><i>I am a software engineer based in San Francisco, CA</i></h3>
+      <div className="About-info">
         <h4 className="About-work">WORK EXPERIENCE</h4>
 
         <div className="About-info-container">
@@ -64,7 +64,7 @@ function About() {
             ‣ create material  for the whole company to use over 20+ performances around NYC
           </p>
         </div>
-      </p>
+      </div>
     </div>
   )
 }

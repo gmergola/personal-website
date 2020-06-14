@@ -1,19 +1,19 @@
 body {
-  background-color: #eee2dc;
   padding-bottom: 10vh;
 }
 
 .headshot {
   width: 300px;
   height: 300px;
-  border-radius: 15px;
+  border-radius: 30px;
   position: absolute;
-  left: 6rem;
+  left: 10rem;
   top: 6rem;
   animation-name: moveLeftRight;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
+  opacity: 0.85;
 }
 
 .container {
@@ -21,18 +21,18 @@ body {
 }
 
 .Home-intro {
-  color: rgb(77, 117, 136);
+  color: rgb(138, 123, 93);
   font-size: 20px;
   margin-top: 100px;
 }
 
 .Home-name {
-  color: #501b1d;
-  font-size: 50px;
+  color: #612325;
+  font-size: 60px;
 }
 
 .Home-info {
-  color:rgb(77, 117, 136);
+  color:rgb(138, 123, 93);
   font-size: 20px;
   animation-name: moveRightLeft;
   animation-duration: 1s;
@@ -54,15 +54,16 @@ body {
   border: none;
   height: 50px;
   border-radius: 50px;
-  background-color: #edc7b7;
+  background-color: #eee4dc;
   padding: 15px;
   font-size: 3.5vh;
-  color: #501b1d;
+  color: #612325;
+  box-shadow: 5px 8px #d4cbc3;;
 }
 
 .Home-projects-btn:hover {
-  background-color: #f7dacd;
-  transition: ease 0.4s;
+  background-color: rgb(138, 123, 93);
+  transition: ease 1s;
 }
 
 @media only screen and (max-width: 1000px) {

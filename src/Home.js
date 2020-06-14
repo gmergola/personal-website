@@ -14,7 +14,7 @@ function Home() {
       <div className="Home-intro-wrapper">
         <p className="Home-intro">Hi, my name is</p>
         <p className="Home-name">Genna</p>
-        <p className="Home-info"><b>I build things for the web...</b></p>
+        <p className="Home-info">I build things for the web...</p>
       </div>
       <div className="Home-btn-div"><Link
         activeClass="active"

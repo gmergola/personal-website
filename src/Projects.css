@@ -4,7 +4,8 @@
   padding: 20px;
   max-width: 1200px;
   margin-bottom: 10px;
-  border-bottom: 5px solid  #edc7b7;
+  border-radius: 15px;;
+  background-color: #eee4dc;
 }
 
 .Project-container:after {
@@ -27,38 +28,37 @@
 
 .Project-title {
   margin-top: 800px;
-  color: #501b1d;
+  color: #612325;
 }
 
 .Project-name {
-  color: rgb(77, 117, 136);
+  color: rgb(138, 123, 93);
   font-size: 30px;
 }
 
 .Project-link {
   text-decoration: none;
-  color: #501b1d;
-  font-size: 15px;
+  color: rgb(138, 123, 93);
+  font-size: 30px;
   padding: 10px;
 }
 
 .Project-btn {
   border-radius: 20px;
   border: none;
-  background-color: #edc7b7;
+  background-color: #eee4dc;
 }
 
 .Project-btn:hover {
-  background-color: #f7dacd;
   transition: ease 0.4s;
 }
 
 .Project-link:hover {
-  color: #501b1d;
+  color: #612325;
 }
 
 .Project-info {
-  color: rgb(110, 109, 109);
+  color: rgb(100, 91, 70);
   font-size: 15px;
 }
 

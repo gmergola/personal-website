@@ -1,23 +1,35 @@
 
-.Contact-email {
-  font-size: 20px;
-  color: #501b1d;
-  text-decoration: none;
+.Contact-title {
+  color: #612325;
+  border-bottom: 5px solid #612325;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  padding-bottom: 20px;
 }
 
-.Contact-arrow {
-  height: 300px;
+.Contact-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 20px;
 }
 
-.Contact-mail-gif {
-  height: 400px;
+.Contact-icon-div {
+  animation-name: moveDownUp;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
 }
 
-@media only screen and (max-width: 600px) {
-  .Contact-arrow {
-    height: 150px;
+.Contact-icon:hover {
+  opacity: 0.5;
+}
+
+@keyframes moveDownUp{
+  from {
+    transform: translateY(500px);
   }
-  .Contact-mail-gif {
-    height: 200px;
+
+  to {
+    transform: translateY(0px)
   }
 }

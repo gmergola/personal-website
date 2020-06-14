@@ -1,11 +1,17 @@
 .About-title {
-  color:#501b1d;
+  color:#612325;
 }
 
 .About-info-container {
   margin: 0 auto;
   max-width: 1000px;
   margin-bottom: 10px;
+  border-radius: 15px;;
+  background-color: #eee4dc;
+}
+
+.About-SE {
+  color: rgb(138, 123, 93);
 }
 
 .About-info-container:after {
@@ -19,12 +25,12 @@
 }
 
 .About-info {
-  color: rgb(77, 117, 136);
+  color: rgb(138, 123, 93);
   animation-name: moveLeftRight;
   animation-duration: 2s;
   animation-fill-mode: both;
-  border-bottom: 5px solid #edc7b7;
-  border-top: 5px solid #edc7b7;
+  border-bottom: 5px solid #612325;
+  border-top: 5px solid #612325;
   margin-right: 10rem;
   margin-left: 10rem;
   padding-bottom: 10px;

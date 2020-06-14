@@ -1,16 +1,34 @@
 import React from 'react';
 import './Contact.css';
-import emailGif from './images/email.gif';
-import arrow from './images/arrow-down.gif';
+import email from './images/email.png';
+import facebook from './images/facebook-icon.png';
+import github from './images/github.png';
+import instagram from './images/instagram.png';
+import linkedin from './images/linkedin.png';
+import twitter from './images/twitter.png';
 
 function Contact() {
   return (
     <div>
-      <p className="Contact-email"><b>Click to Email me</b></p>
-      <img className="Contact-arrow" src={arrow} alt="arrow" />
-      <div>
+      <h1 className="Contact-title">Contact Me</h1>
+      <div className="Contact-icon-div">
         <a href="mailto:gennamergola@gmail.com">
-          <img className="Contact-mail-gif" src={emailGif} alt="email-gif" />
+          <img className="Contact-icon email" src={email} alt="email" />
+        </a>
+        <a href="https://www.linkedin.com/in/genna-mergola-73b109116/">
+          <img className="Contact-icon email" src={linkedin} alt="linkedin" />
+        </a>
+        <a href="https://github.com/gmergola">
+          <img className="Contact-icon email" src={github} alt="github" />
+        </a>
+        <a href="https://twitter.com/GennaMergola">
+          <img className="Contact-icon email" src={twitter} alt="twitter" />
+        </a>
+        <a href="https://www.instagram.com/gennakearney/">
+          <img className="Contact-icon email" src={instagram} alt="instagram" />
+        </a>
+        <a href="https://www.facebook.com/genna.mergola/">
+          <img className="Contact-icon email" src={facebook} alt="facebook" />
         </a>
       </div>
     </div>
