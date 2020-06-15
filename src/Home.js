@@ -16,15 +16,17 @@ function Home() {
         <p className="Home-name">Genna</p>
         <p className="Home-info">I build things for the web...</p>
       </div>
-      <div className="Home-btn-div"><Link
-        activeClass="active"
-        className="Home-projects-btn"
-        to="Project-div"
-        spy={true}
-        smooth={true}
-        duration={1000}>
-        Check out some apps I've built
-        </Link></div>
+      <div className="Home-btn-div">
+        <Link
+          activeClass="active"
+          className="Home-projects-btn"
+          to="Project-div"
+          spy={true}
+          smooth={true}
+          duration={1000}>
+          Check out some apps I've built
+          </Link>
+      </div>
 
       <Projects />
 
