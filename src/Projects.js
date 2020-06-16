@@ -24,7 +24,7 @@ function Projects() {
             saved to the database. Jobly's frontend stores the JWT in localStorage to authenticate and authorize the user logging in.
           </p>
           <h5 className="Project-info" >Built using:  React, Express, and PostgreSQL</h5>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/react-jobly">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Jobly">Github Link </a></button>
           <button className="Project-btn"><a className="Project-link" href="https://jolly-bartik-93b7c7.netlify.app/">Live App Demo</a></button>
         </div>
       </div>
