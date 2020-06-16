@@ -16,14 +16,14 @@ function About() {
             <p><i>Clever Counsel is a tech start-up Leveraging technology to address the justice gap.</i></p>
           </div>
           <p className="About-info-body">
-            <p>‣ I Developed full stack user friendly functionality for the application across
+            <p>‣ Developed full stack user friendly functionality for the application across
               multiple areas using React, Flask with SQLAlchemy, mySQL, and AWS</p>
-            <p>‣ I Implemented and fully designed the frontend and backend of the search
+            <p>‣ Implemented and fully designed the frontend and backend of the search
               functionality for the application used in multiple components</p>
-            <p>‣ I Doubled frontend test coverage using jest with api mocking</p>
-            <p>‣ I Designed the frontend and backend functionality  for a user to write a note
+            <p>‣ Doubled frontend test coverage using jest with api mocking</p>
+            <p>‣ Designed the frontend and backend functionality  for a user to write a note
               about a case</p>
-            <p>‣ I Collaborated with a team of five engineers to upgrade the fullstack code base
+            <p>‣ Collaborated with a team of five engineers to upgrade the fullstack code base
               for easier readability, ensuring long term success</p>
           </p>
         </div>
@@ -40,11 +40,11 @@ function About() {
             </p>
           </div>
           <p className="About-info-body">
-            <p>‣ I Led groups of 20-50 people through an hour class while exercising my ability to
+            <p>‣ Led groups of 20-50 people through an hour class while exercising my ability to
             keep everyone on track as well as controlling the music and temperature of the room.</p>
-            <p>‣ I Lead a 5 week Yoga Sculpt teacher training to approximately 30 students in NYC, where
+            <p>‣ Lead a 5 week Yoga Sculpt teacher training to approximately 30 students in NYC, where
             I recruited 7 out of 14 participants.</p>
-            <p>‣ I Was given a 10% raise as a result of demonstrating great communication and customer
+            <p>‣ Was given a 10% raise as a result of demonstrating great communication and customer
             service skills between myself and the clients.</p>
           </p>
         </div>
@@ -61,9 +61,9 @@ function About() {
             </p>
           </div>
           <p className="About-info-body">
-            <p>‣ I Performed for over a thousand audience members across NYC at sustainability conscious and environmentally
+            <p>‣ Performed for over a thousand audience members across NYC at sustainability conscious and environmentally
             aware events.</p>
-            <p>‣ I created material for the whole company to use in over 20+ performances around NYC.</p>
+            <p>‣ Created material for the whole company to use in over 20+ performances around NYC.</p>
           </p>
         </div>
       </div>
