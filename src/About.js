@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 
+/**TODO: margin check description */
 function About() {
   return (
     <div>
