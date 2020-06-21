@@ -36,7 +36,7 @@ function Home() {
         to="NavBar-container"
         spy={true}
         smooth={true}
-        duration={2000}>
+        duration={2500}>
         Scroll to top
         </Link>
     </div >

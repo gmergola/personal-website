@@ -1,14 +1,16 @@
 import React from 'react';
+import Games from './Games';
 import './Projects.css';
 import jobly from './images/jobly-home.png';
 import microblog from './images/microblog-home.png';
 import warbler from './images/warbler-home.png';
-import jeopardy from './images/jeopardy-home.png';
+import { Link } from "react-scroll";
 
 function Projects() {
+
   return (
     <div id="Project-div">
-      <h1 id="Project-title" className="Project-title" >Some Apps I've built...</h1>
+      <h1 id="Project-title" className="Project-title" >Some apps I've built...</h1>
       <br />
       <div className="Project-container">
         <img className="Projects-picture" src={jobly} alt="jobly-home" />
@@ -62,19 +64,28 @@ function Projects() {
         </div>
       </div>
 
-      <div className="Project-container">
-        <img className="Projects-picture" src={jeopardy} alt="jeopardy-home" />
-        <div className="Project-context">
-          <p className="Project-name">Jeopardy!</p>
-          <h5 className="Project-info">Built using: Javascript, JQuery, HTML, and CSS</h5>
-          <p className="Project-info">
-            A game to play Jeopardy! Jeopardy is a frontend application built using Javascript. It makes an axios GET
-            request to the Jeopardy API to get questions and answers. Try it out by clicking the button below!
-          </p>
-          <button className="Project-btn"><a className="Project-link" href="http://physical-achieve.surge.sh/">Live App Demo </a></button>
-        </div>
-      </div>
       <div className="Project-bottom"></div>
+      <Link
+        activeClass="active"
+        className="Home-projects-btn"
+        to="Games-title"
+        spy={true}
+        smooth={true}
+        duration={1500}>
+        Play some games I've built
+      </Link>
+
+      <Link
+        activeClass="active"
+        className="Home-projects-btn"
+        to="NavBar-container"
+        spy={true}
+        smooth={true}
+        duration={2000}>
+        Scroll to top
+      </Link>
+
+      <Games />
     </div>
   )
 }
