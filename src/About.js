@@ -16,7 +16,7 @@ function About() {
             <p>May 2020 - June 2020 // San Francisco </p>
             <p><i>Clever Counsel is a tech start-up Leveraging technology to address the justice gap.</i></p>
           </div>
-          <p className="About-info-body">
+          <div className="About-info-body">
             <p>‣ Developed full stack user friendly functionality for the application across
               multiple areas using React, Flask with SQLAlchemy, mySQL, and AWS</p>
             <p>‣ Implemented and fully designed the frontend and backend of the search
@@ -26,7 +26,7 @@ function About() {
               about a case</p>
             <p>‣ Collaborated with a team of five engineers to upgrade the fullstack code base
               for easier readability, ensuring long term success</p>
-          </p>
+          </div>
         </div>
         <br />
 
@@ -40,14 +40,14 @@ function About() {
               workout in the mindfulness of yoga.</i>
             </p>
           </div>
-          <p className="About-info-body">
+          <div className="About-info-body">
             <p>‣ Led groups of 20-50 people through an hour class while exercising my ability to
             keep everyone on track as well as controlling the music and temperature of the room.</p>
             <p>‣ Lead a 5 week Yoga Sculpt teacher training to approximately 30 students in NYC, where
             I recruited 7 out of 14 participants.</p>
             <p>‣ Was given a 10% raise as a result of demonstrating great communication and customer
             service skills between myself and the clients.</p>
-          </p>
+          </div>
         </div>
         <br />
 
@@ -61,11 +61,11 @@ function About() {
                 and environmentally conscious.</i>
             </p>
           </div>
-          <p className="About-info-body">
+          <div className="About-info-body">
             <p>‣ Performed for over a thousand audience members across NYC at sustainability conscious and environmentally
             aware events.</p>
             <p>‣ Created material for the whole company to use in over 20+ performances around NYC.</p>
-          </p>
+          </div>
         </div>
       </div>
     </div>

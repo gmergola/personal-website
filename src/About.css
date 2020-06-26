@@ -45,7 +45,7 @@
   float:right;
   max-width: 550px;
   text-align: left;
-  padding: 5px;
+  padding: 10px;
 }
 
 
@@ -53,6 +53,12 @@
   .About-info {
     margin-right: 1rem;
     margin-left: 1rem;
+  }
+  .About-info-body {
+    padding: 8px;
+  }
+  .About-info-pre {
+    padding: 8px;
   }
 }
 
