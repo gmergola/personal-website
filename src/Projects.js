@@ -41,7 +41,7 @@ function Projects() {
             frontend paired with Express and PostgreSQL on the backend. Microblog allows any user to post, edit, and delete posts. A user
             can also up or down vote a blog post as well as comment on it (comments can also be deleted).
           </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/redux-microblog">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Microblog">Github Link </a></button>
           <button className="Project-btn"><a className="Project-link" href="https://silly-jepsen-f99f86.netlify.app/">Live App Demo</a></button>
         </div>
       </div>
