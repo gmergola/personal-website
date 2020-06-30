@@ -12,6 +12,22 @@ function Projects() {
     <div id="Project-div">
       <h1 id="Project-title" className="Project-title" >Some apps I've built...</h1>
       <br />
+
+      <div className="Project-container">
+        <img className="Projects-picture" src={microblog} alt="microblog-home" />
+        <div className="Project-context">
+          <p className="Project-name">Microblog</p>
+          <h5 className="Project-info" >Built using: React, Redux, Express, and PostgreSQL  </h5>
+          <p className="Project-info" >
+            An innovative site for communicating on the information superhighway. Microblog was built with React and Redux on the
+            frontend paired with Express and PostgreSQL on the backend. Microblog allows any user to post, edit, and delete posts. A user
+            can also up or down vote a blog post as well as comment on it (comments can also be deleted).
+          </p>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Microblog">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://nervous-agnesi-2c7074.netlify.app/">Live App Demo</a></button>
+        </div>
+      </div>
+
       <div className="Project-container">
         <img className="Projects-picture" src={jobly} alt="jobly-home" />
         <div className="Project-context">
@@ -28,21 +44,6 @@ function Projects() {
           </p>
           <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Jobly">Github Link </a></button>
           <button className="Project-btn"><a className="Project-link" href="https://jolly-bartik-93b7c7.netlify.app/">Live App Demo</a></button>
-        </div>
-      </div>
-
-      <div className="Project-container">
-        <img className="Projects-picture" src={microblog} alt="microblog-home" />
-        <div className="Project-context">
-          <p className="Project-name">Microblog</p>
-          <h5 className="Project-info" >Built using: React, Redux, Express, and PostgreSQL  </h5>
-          <p className="Project-info" >
-            An innovative site for communicating on the information superhighway. Microblog was built with React and Redux on the
-            frontend paired with Express and PostgreSQL on the backend. Microblog allows any user to post, edit, and delete posts. A user
-            can also up or down vote a blog post as well as comment on it (comments can also be deleted).
-          </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Microblog">Github Link </a></button>
-          <button className="Project-btn"><a className="Project-link" href="https://silly-jepsen-f99f86.netlify.app/">Live App Demo</a></button>
         </div>
       </div>
 
