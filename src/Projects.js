@@ -24,7 +24,7 @@ function Projects() {
             frontend paired with Express and PostgreSQL on the backend. Microblog allows any user to post, edit, and delete posts. A user
             can also up or down vote a blog post as well as comment on it (comments can also be deleted).
           </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Microblog">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Microblog">Github Link</a></button>
           <button className="Project-btn"><a className="Project-link" href="https://nervous-agnesi-2c7074.netlify.app/">Live App Demo</a></button>
         </div>
       </div>
@@ -39,7 +39,7 @@ function Projects() {
             The game is built for two teams. Each team has the chance to answer questions and rack up points!
           </p>
           <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Questions">Github Link </a></button>
-          <div className="Project-link Project-btn">Live App Demo coming soon!</div>
+          <button className="Project-btn"><a className="Project-link" href="https://gracious-jang-a2386f.netlify.app/">Live App Demo</a></button>
         </div>
       </div>
 
