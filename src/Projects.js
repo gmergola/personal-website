@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import jobly from './images/jobly-home.png';
-import microblog from './images/microblog-home.png';
+// import microblog from './images/microblog-home.png';
 import warbler from './images/warbler-home.png';
 import jeopardy from './images/jeopardy-home.png';
 import guessingGame from './images/guessing-game.png';
