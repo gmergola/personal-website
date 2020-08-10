@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./NavBar.css";
-import resume from './images/Genna-resume.pdf';
+import resume from './images/Genna-Resume-AUG2020.pdf';
 
 function NavBar() {
   return (
