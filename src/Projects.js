@@ -28,8 +28,8 @@ function Projects() {
           If that team hits three incorrect answers, it is the other team's turn.
           Every question has 6 answers, when all 6 correct answers have been guessed, the team with the highest remaining points wins that round!
           </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Questions">Github Link </a></button>
-          <button className="Project-btn"><a className="Project-link" href="https://gracious-jang-a2386f.netlify.app/">Live App Demo</a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Questions" target="_blank" rel="noopener noreferrer">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://gracious-jang-a2386f.netlify.app/" target="_blank" rel="noopener noreferrer">Live App Demo</a></button>
         </div>
       </div>
 
@@ -43,8 +43,8 @@ function Projects() {
             frontend paired with Express and PostgreSQL on the backend. Microblog allows any user to post, edit, and delete posts. A user
             can also up or down vote a blog post as well as comment on it (comments can also be deleted).
           </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Microblog">Github Link</a></button>
-          <button className="Project-btn"><a className="Project-link" href="https://nervous-agnesi-2c7074.netlify.app/">Live App Demo</a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Microblog" target="_blank" rel="noopener noreferrer">Github Link</a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://nervous-agnesi-2c7074.netlify.app/" target="_blank" rel="noopener noreferrer">Live App Demo</a></button>
         </div>
       </div>
 
@@ -61,8 +61,8 @@ function Projects() {
           Jobly's frontend stores the JWT in localStorage to authenticate and authorize the user logging in.
           Jobly's backend makes use of JSON schema to validate forms before any information is sent and saved to the database.
           </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Jobly">Github Link </a></button>
-          <button className="Project-btn"><a className="Project-link" href="https://jolly-bartik-93b7c7.netlify.app/">Live App Demo</a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Jobly" target="_blank" rel="noopener noreferrer">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://jolly-bartik-93b7c7.netlify.app/" target="_blank" rel="noopener noreferrer">Live App Demo</a></button>
         </div>
       </div>
 
@@ -80,8 +80,8 @@ function Projects() {
             profile and no other, a user can only like other's posts and not their own. While using Warbler, a user can:
             write posts, like other's posts, edit their profile, follow other user's, and delete their profile.
             </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Warbler">Github Link </a></button>
-          <button className="Project-btn"><a className="Project-link" href="https://genna-k-warbler.herokuapp.com/">Live App Demo</a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Warbler" target="_blank" rel="noopener noreferrer">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://genna-k-warbler.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live App Demo</a></button>
         </div>
       </div>
 
@@ -95,7 +95,7 @@ function Projects() {
             Jeopardy is a frontend application built using Javascript. It makes an axios GET
             request to the Jeopardy API to get questions and answers. Try it out!
           </p>
-          <button className="Project-btn"><a className="Project-link" href="http://physical-achieve.surge.sh/">Live App Demo </a></button>
+          <button className="Project-btn"><a className="Project-link" href="http://physical-achieve.surge.sh/" target="_blank" rel="noopener noreferrer">Live App Demo </a></button>
         </div>
       </div>
 
@@ -108,8 +108,8 @@ function Projects() {
             Guess a number between 1 and 100... The game will choose a random number for you to try and guess, it will let you know
             if your guess was too high, too low, or just right!
           </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/guessing-game">Github Link </a></button>
-          <button className="Project-btn"><a className="Project-link" href="http://tan-market.surge.sh/">Live App Demo </a></button>
+          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/guessing-game" target="_blank" rel="noopener noreferrer">Github Link </a></button>
+          <button className="Project-btn"><a className="Project-link" href="http://tan-market.surge.sh/" target="_blank" rel="noopener noreferrer">Live App Demo </a></button>
         </div>
       </div>
 
