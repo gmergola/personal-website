@@ -21,8 +21,8 @@ function About() {
           While in San Francisco, I found <b><a href="https://www.rithmschool.com/" target="_blank" rel="noopener noreferrer">Rithm School</a></b>
           coding bootcamp and after doing my research I knew I had to interview. I am now a graduate of Rithm school and ready to start my new journey in
           the tech industry! My journey to becoming a Software Engineer has definitely been a non-traditional one, but I wouldn't
-          change it. It has made me the engineer and person I am today. I am passionate about coding as well as physical and mental health,
-          if you share any of my passions, or just want to chat, please reach out to me through my contact page, I'd love to hear from you!
+          change it. It has made me the engineer and person I am today. I now work as a product engineer at <b><a href="https://www.get-carrot.com/"
+          target="_blank" rel="noopener noreferrer">Carrot Fertility!</a></b>
       </p>
       </div>
     </div>
