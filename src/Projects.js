@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import jobly from './images/jobly-home.png';
 import microblog from './images/microblog-home.png';
 import warbler from './images/warbler-home.png';
 import jeopardy from './images/jeopardy-home.png';
@@ -45,24 +44,6 @@ function Projects() {
           </p>
           <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Microblog" target="_blank" rel="noopener noreferrer">Github Link</a></button>
           <button className="Project-btn"><a className="Project-link" href="https://nervous-agnesi-2c7074.netlify.app/" target="_blank" rel="noopener noreferrer">Live App Demo</a></button>
-        </div>
-      </div>
-
-      <div className="Project-container">
-        <img className="Projects-picture" src={jobly} alt="jobly-home" />
-        <div className="Project-context">
-          <p className="Project-name">Jobly</p>
-          <h5 className="Project-info" >Built using:  React, Express, and PostgreSQL</h5>
-          <p className="Project-info" >
-          A job application site
-          Jobly has login, register, and logout features. When logged in the user can see a list of companies hiring as well as a list of jobs to apply to.
-          The user has a profile page where they can see their profile information as well as edit that information.
-          Jobly's express backend uses a JWT to ensure a user is logged in otherwise they cannot see the companies, jobs, or profile page.
-          Jobly's frontend stores the JWT in localStorage to authenticate and authorize the user logging in.
-          Jobly's backend makes use of JSON schema to validate forms before any information is sent and saved to the database.
-          </p>
-          <button className="Project-btn"><a className="Project-link" href="https://github.com/gmergola/Jobly" target="_blank" rel="noopener noreferrer">Github Link </a></button>
-          <button className="Project-btn"><a className="Project-link" href="https://jolly-bartik-93b7c7.netlify.app/" target="_blank" rel="noopener noreferrer">Live App Demo</a></button>
         </div>
       </div>
 
